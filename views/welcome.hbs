@@ -1,0 +1,19 @@
+<div class="user-container">
+    <div class="box" style="color: antiquewhite;">
+        <h2>UserID: {{userDetails.id}}</h2>
+        <h2>Name: {{userDetails.name}}</h2>
+        <h2>Email: {{userDetails.email}}</h2>
+        <h2>Mobile: {{{userDetails.phone}}}</h2>
+        <h2>Address: {{{userDetails.address}}}</h2>
+        <h2>Registration Date: {{{userDetails.date}}}</h2>
+
+    </div>
+    <div>
+        <ul class="list" style="margin-top: 50px;">
+            {{#each datas}}
+            <li>Title: {{this.title}}</li>
+            <p>Description: {{this.description}}</p>
+            {{/each}}
+        </ul>
+    </div>
+</div>

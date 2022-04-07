@@ -1,0 +1,27 @@
+<div class="container">
+    <h1>Register Here</h1>
+    <h2>{{{msg}}}</h2>
+    <form action="/signup" method="post">
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="text" name="name" required="true" minlength="3" placeholder="Enter Your Name">
+        </div>
+        <div class="box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" required="true" placeholder="Enter Your Email">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" required="true" placeholder="Enter Your Password">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="number" name="phone" required="true" placeholder="Enter Your Mobile Number">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="text" name="address" placeholder="Enter Your Address">
+        </div>
+        <button type="submit" class="btn">Register</button>
+    </form>
+</div>
